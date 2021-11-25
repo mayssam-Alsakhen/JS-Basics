@@ -1,10 +1,10 @@
-function clear(){
+function clearFields(){
     var clea = confirm('clear');
-    return confirm;
     if(clea){
-        document.getElementById('name').value = "";
-        document.getElementById('city').value = "";
-        document.getElementById('surname').value = "";
+        document.getElementById("name").value=""
+    document.getElementById("surname").value=""
+    document.getElementById("city").value="";
+
      
     }
 }
